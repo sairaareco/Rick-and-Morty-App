@@ -1,0 +1,55 @@
+.menu {
+    font-family: 'cartoonist_kooky';
+    display: flex;
+    flex-direction: row;
+    position: static;
+    height: 6rem;
+    background-color: black;
+}
+
+.home {
+    margin-top: 40px;
+        color: #11c0cc;
+        margin-left: 80px;
+        text-decoration: none;
+    }
+
+.about {
+    margin-top: 40px;
+    color: #11c0cc;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.favorites {
+    margin-top: 40px;
+    color: #11c0cc;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.form {
+margin-top: 40px;
+    color: #11c0cc;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.randomButton {
+    font-family: 'cartoonist_kooky';
+    margin-top: 17px;
+    margin-bottom: 18px;;
+    margin-left: 100px;
+    width: 8%;
+    color: whitesmoke;
+    background-color: #11c0cc;
+    border: whitesmoke;
+    box-shadow: 2px 2px 2px rgb(219, 214, 214);
+    border-radius: 5px;
+}
+
+.randomButton:hover {
+    background-color: #1d9da6;
+    color: white;
+}
+

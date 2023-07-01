@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'get_schwifty';
+    src: url(../fonts/get_schwifty.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'cartoonist_kooky';
+    src: url(../fonts/cartoonist_kooky.ttf) format('truetype');
+}
+
+.container { 
+    font-family: 'cartoonist_kooky';
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-image: url(../images/m.jpeg);
+}
+
+.titulo {
+    padding-top: 2rem;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #11c0cc;
+}
+
+.subtitulo {
+    padding-top: 3rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #11c0cc;
+    font-size: 1rem;
+}
+
+.subtituloDos {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #11c0cc;
+    font-size: 1rem;
+    
+}
+
+.formulario { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    margin-right: 11rem;
+    padding-top: 0.2rem;
+}
+
+.usuario {
+    margin-left: 12rem;
+    color: black;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.contraseña {
+    margin-left: 12rem;
+    margin-top: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.button {
+    font-family: 'get_schwifty';
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    background-color: #11c0cc;
+    color: white;
+    border-radius: 3px;
+    padding: 0.7rem;
+    margin-top: 30px;
+    margin-left: 14rem;
+    box-shadow: 2px 2px 2px rgb(219, 214, 214);
+    border: none;
+}
+
+.button:hover {
+    background-color: #1d9da6;
+    color: white;
+}
+
+.labelUsuario {
+    font-family: 'get_schwifty';
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.labelPass {
+    font-family: 'get_schwifty';
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.mensaje {
+    font-size: 12px;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 4px;
+}
+
+.input {
+    height: 30px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+}

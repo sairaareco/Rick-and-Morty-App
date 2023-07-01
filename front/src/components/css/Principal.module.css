@@ -1,0 +1,29 @@
+.contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-image: url(../images/637650.webp);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+}
+
+.boton {
+    font-family: 'get_schwifty';
+    letter-spacing: 3px;
+    font-size: 20px;
+    transition:0.2s ease-in-out;
+    font-weight: bolder;
+    background-color: #11c0cc;
+    color: whitesmoke;
+    padding: 1rem;
+    margin-top: 25rem;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px #072c2d;
+    border: none;
+}
+
+.boton:hover {
+    font-size: 23px;
+}
